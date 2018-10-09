@@ -8,7 +8,7 @@ jQuery(function() {
         beforeCreate() {
             var self = this;
             $.ajax({
-                url: "/LoadHotMicroBlogs",
+                url: "/SayHello",
                 type: 'GET',
                 dataType: 'json',
                 timeout: 5000,
